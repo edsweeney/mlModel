@@ -29,7 +29,7 @@ jobs:
             - name: build image
               run: 
                  
-                docker build . -t edwinasweeney/modelbuild:latest
+                docker build . -t edwinasweeney/modelbuilddocker:latest
             - name: push image to docker hub
               run: |
-                docker push edwinasweeney/modelbuildDocker:latest
+                docker push edwinasweeney/modelbuilddocker:latest
